@@ -1,0 +1,24 @@
+#randomLabel {
+    font-size: 10em;
+    display: block;
+    text-align: center;
+}
+
+#randomBtnDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#randomBtn {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(242, 117, 117);
+    transition: background-color 0.25s;
+}
+
+#randomBtn:hover {
+    background-color: rgb(210, 47, 47);
+}

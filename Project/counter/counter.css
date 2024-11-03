@@ -1,0 +1,23 @@
+#counterLabel {
+    font-size: 10em;
+    display: block;
+    text-align: center;
+}
+
+#buttons {
+    text-align: center;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: aliceblue;
+    background-color: rgb(83, 83, 229);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+button:hover {
+    background-color: rgb(8, 8, 68);
+}
