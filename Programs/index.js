@@ -133,3 +133,163 @@
 // let random2 = Math.floor(Math.random() * (100 - 50 + 1)) + 50;
 
 // console.log(random2);
+
+// if-else statements
+
+// let age;
+
+// document.getElementById("ageBtn").onclick = function () {
+//   age = document.getElementById("myAge").value;
+//   if (age > 100) {
+//     document.getElementById("ageLabel").textContent =
+//       "You are too old to enter";
+//   } else if (age >= 18) {
+//     document.getElementById("ageLabel").textContent =
+//       "You are old enough to drive";
+//   } else if (age < 0) {
+//     document.getElementById("ageLabel").textContent = "You dont exist!";
+//   } else if (age < 18) {
+//     document.getElementById("ageLabel").textContent = "You are too young";
+//   }
+
+//   document.getElementById("ageDiv").textContent = "";
+// };
+
+// Checked property
+
+// const subscribe = document.getElementById("mySub");
+// const visa = document.getElementById("visaBtn");
+// const masterCard = document.getElementById("masterCardBtn");
+// const paypal = document.getElementById("paypalBtn");
+// const submitButton = document.getElementById("submitBtn");
+// const subP = document.getElementById("subP");
+// const card = document.getElementById("cardP");
+
+// submitButton.onclick = function () {
+//   if (subscribe.checked) {
+//     subP.textContent = `You are subscribed`;
+//   } else {
+//     subP.textContent = `You are NOT subscribed`;
+//   }
+
+//   if (visa.checked) {
+//     card.textContent = `You are paying through visa`;
+//   } else if (masterCard.checked) {
+//     card.textContent = `You are paying through mastercard`;
+//   } else if (paypal.checked) {
+//     card.textContent = `You are paying through paypal`;
+//   } else {
+//     card.textContent = `Choose a payment mode`;
+//   }
+// };
+
+// Ternary Operator
+
+// let isStudent = true;
+// let message = isStudent ? "You are a student" : "You are NOT a student";
+// console.log(message);
+
+//Switch case
+
+// let score = 65;
+// let letterGrade;
+
+// switch (true) {
+//   case score >= 80:
+//     letterGrade = "A";
+//     break;
+
+//   case score >= 70:
+//     letterGrade = "B";
+//     break;
+
+//   case score >= 60:
+//     letterGrade = "C";
+//     break;
+
+//   case score >= 50:
+//     letterGrade = "D";
+//     break;
+
+//   case score >= 40:
+//     letterGrade = "E";
+//     break;
+
+//   default:
+//     letterGrade = "F";
+//     break;
+// }
+
+// console.log(letterGrade);
+
+// String methods
+
+// let userName = "Jhon Doe";
+// let userName = "Jhon Doe Jhon Doe";
+
+// let result = userName.toLowerCase();
+// let result = userName.toUpperCase();
+// let result = userName.charAt(3);
+// let result = userName.indexOf("z");
+// let result = userName.lastIndexOf("o");
+// let result = userName.length;
+// let result = userName.trim();
+// let result = userName.startsWith("J");
+// let result = userName.repeat(2);
+// let result = userName.split(" ");
+// let result = userName.replace("Doe", "Smith");
+// let result = userName.replaceAll("Doe", "Smith");
+// let result = userName.substring(2, 6);
+// let result = userName.includes(" ");
+// let result = userName.padStart(15, "Jhon Doe");
+// let result = userName.padEnd(15, "0");
+
+// console.log(result);
+
+// String slicing
+
+// let email = "jhondoe@gmail.com";
+
+// let username = email.slice(0, email.indexOf("@"));
+// let extension = email.slice(email.indexOf("@") + 1);
+
+// console.log(username + " " + extension);
+
+// Method Chaining
+
+// Input: "   JHOn DOe" OutPut: "Jhon doe"
+
+// let userName = window.prompt("Enter your username");
+// userName = userName
+//   .trim()
+//   .charAt(0)
+//   .toUpperCase()
+//   .concat(userName.trim().slice(1).toLowerCase());
+// console.log(userName);
+
+// Logical Operators
+
+// const temp = -100;
+
+// AND
+// if (temp > 0 && temp <= 30) {
+//   console.log("The weather is GOOD");
+// } else {
+//   console.log("The weather is BAD");
+// }
+
+// OR
+// if (temp <= 0 || temp > 30) {
+//   console.log("The weather is BAD");
+// } else {
+//   console.log("The weather is GOOD");
+// }
+
+// NOT
+// const isSunny = true;
+
+// if (!isSunny) {
+//   console.log("It is not sunny");
+// } else {
+//   console.log("It is sunny");
+// }
