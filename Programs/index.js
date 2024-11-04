@@ -293,3 +293,61 @@
 // } else {
 //   console.log("It is sunny");
 // }
+
+// Strict equality
+
+// = assignment operator
+// == comparison operator (compare if values are equal)
+// === strict equality operator (compare if values & datatype are equal)
+// != inequality operator
+// !== strict inequality operator
+
+// const PI = 3.14;
+
+// if (PI == 3.14) {
+//   console.log(`This is Pi`);
+// } else {
+//   console.log(`That is NOT Pi`);
+// }
+
+// if (PI == "3.14") {
+//   console.log(`This is Pi`);
+// } else {
+//   console.log(`That is NOT Pi`);
+// }
+
+// if (PI === "3.14") {
+//   console.log(`This is Pi`);
+// } else {
+//   console.log(`That is NOT Pi`);
+// }
+
+// While loops
+
+// let username = "";
+
+// while (username === "" || username === null) {
+//   username = window.prompt("Enter the username :");
+// }
+
+// let username;
+
+// do {
+//   username = window.prompt("Enter the username :");
+// } while (username === "" || username === null);
+
+// console.log(`Hello ${username}`);
+
+// let loggedIn = false;
+// let userName, password;
+// while (!loggedIn) {
+//   userName = window.prompt("Enter username");
+//   password = window.prompt("Enter password");
+//   if (userName == "myUsername" && password == "myPassword") {
+//     console.log("logged in!");
+//     loggedIn = true;
+//   } else {
+//     console.log("invalid credentials!");
+//     loggedIn = false;
+//   }
+// }
