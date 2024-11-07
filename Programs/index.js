@@ -351,3 +351,15 @@
 //     loggedIn = false;
 //   }
 // }
+
+// For loop
+
+// for (let i = 0; i <= 10; i++) {
+//   if (i == 3) {
+//     continue;
+//   } else if (i == 9) {
+//     break;
+//   } else {
+//     console.log(i);
+//   }
+// }
