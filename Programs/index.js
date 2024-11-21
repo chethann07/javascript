@@ -363,3 +363,42 @@
 //     console.log(i);
 //   }
 // }
+
+// Functions
+
+// function demo(username, age) {
+//   console.log(`Hello ${username} and you are ${age} years old!`);
+// }
+
+// demo("Jhon Doe", 38);
+// demo("Joe Rogan", 48);
+
+// function isEven(input) {
+//   return input % 2 === 0 ? true : false;
+// }
+
+// console.log(isEven(10));
+// console.log(isEven(19));
+
+// function isValidEmail(email) {
+//   return email.includes("@") ? true : false;
+// }
+
+// console.log(isValidEmail("Jhondoe@gmail.com"));
+// console.log(isValidEmail("Joegmail.com"));
+
+// Scope of a variable
+
+// let x = 10; // global variable
+
+// function demo() {
+//   x = 15; //local variable and has first preference
+// }
+
+// function demo2() {
+//   x = 22;
+// }
+
+// demo();
+// demo2();
+// console.log(x);
