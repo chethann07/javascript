@@ -405,28 +405,28 @@
 
 // Arrays
 
-let fruits = ["apple", "orange", "banana", "melon"];
+// let fruits = ["apple", "orange", "banana", "melon"];
 
-console.log(fruits);
-fruits[4] = "coconut";
-console.log(fruits);
+// console.log(fruits);
+// fruits[4] = "coconut";
+// console.log(fruits);
 
-fruits.push("mango");
-fruits.push("pomegranate");
-console.log(fruits);
-fruits.pop();
-console.log(fruits);
+// fruits.push("mango");
+// fruits.push("pomegranate");
+// console.log(fruits);
+// fruits.pop();
+// console.log(fruits);
 
-fruits.unshift("chickoo");
-console.log(fruits);
-fruits.shift();
-console.log(fruits);
+// fruits.unshift("chickoo");
+// console.log(fruits);
+// fruits.shift();
+// console.log(fruits);
 
-for (let i = 0; i < fruits.length; i++) {
-  console.log(fruits[i]);
-}
+// for (let i = 0; i < fruits.length; i++) {
+//   console.log(fruits[i]);
+// }
 
-fruits.sort();
-for (let fruit of fruits) {
-  console.log(fruit);
-}
+// fruits.sort();
+// for (let fruit of fruits) {
+//   console.log(fruit);
+// }
