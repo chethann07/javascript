@@ -31,5 +31,4 @@ Feel free to explore, learn, and suggest improvements if you come across somethi
 
 ---
 
-Stay curious and keep coding!  
-— _Chethan G._
+Stay curious and keep coding!
