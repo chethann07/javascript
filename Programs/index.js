@@ -430,3 +430,23 @@
 // for (let fruit of fruits) {
 //   console.log(fruit);
 // }
+
+// ... spread operator (for iterable items such as arrays and strings)
+
+// let numbers = [1, 2, 3, 4, 5];
+
+// let maxNum = Math.max(...numbers);
+// console.log(maxNum);
+
+// let userName = "Jhon Doe";
+// let letters = [...userName].filter((char) => char != " ").join("-");
+// console.log(letters);
+
+// let fruits = ["apple", "banana", "mango"];
+// let vegetables = ["carrot", "tomato"];
+// let items = [...fruits, ...vegetables, "egg", "milk"];
+// console.log(items);
+
+// (...rest) parameters allows a function to take multiple inputs and also it bundles together separate elements in an array
+
+
