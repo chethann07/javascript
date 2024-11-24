@@ -449,4 +449,36 @@
 
 // (...rest) parameters allows a function to take multiple inputs and also it bundles together separate elements in an array
 
+// function openFridge(...foods) {
+//   console.log(...foods);
+// }
 
+// function getFood(...foods) {
+//   return foods;
+// }
+
+// const food1 = "Pizza";
+// const food2 = "Burger";
+// const food3 = "Fries";
+// const food4 = "Chips";
+
+// openFridge(food1, food2, food3, food4);
+// console.log(getFood(food1, food2, food3, food4));
+
+// function sum(...numbers) {
+//   let result = 0;
+//   for (let number of numbers) {
+//     result += number;
+//   }
+//   return result;
+// }
+
+// console.log(sum(10, 20, 30, 40));
+
+// const fullName = ["Mr.", "Sponge", "Bob", "Square", "Pants"];
+
+// function combineString(...string) {
+//   return string.join(" ");
+// }
+
+// console.log(combineString(...fullName));
