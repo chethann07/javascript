@@ -482,3 +482,5 @@
 // }
 
 // console.log(combineString(...fullName));
+
+// Callback function -> a function that is passed as an argument to another function
