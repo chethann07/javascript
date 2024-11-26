@@ -484,3 +484,53 @@
 // console.log(combineString(...fullName));
 
 // Callback function -> a function that is passed as an argument to another function
+
+// sayHello(sayGoodbye);
+
+// function sayHello(callback) {
+//   console.log("Hello");
+//   callback();
+// }
+
+// function sayGoodbye() {
+//   console.log("Goodbye!");
+// }
+
+// add(printAdd, 2, 10);
+
+// function add(callback, x, y) {
+//   let result = x + y;
+//   callback(result);
+// }
+
+// function printAdd(result) {
+//   document.getElementById("myH1").textContent = result;
+// }
+
+// forEach() -> method used to iterate over the elements of an array a specified function(callback) to each element
+// array.forEach(callback)
+// array, index, element are provided
+
+// let fruits = ["apple", "banana", "orange", "grapes"];
+// let numbers = [1, 2, 3, 4, 5, 6];
+
+// fruits.forEach(capitalize);
+// fruits.forEach(display);
+// numbers.forEach(double);
+
+// function display(element) {
+//   console.log(element);
+// }
+
+// function double(element, index, array) {
+//   array[index] = element * 2;
+//   console.log(array[index]);
+// }
+
+// function toUpperCase(element, index, array) {
+//   array[index] = element.toUpperCase();
+// }
+
+// function capitalize(element, index, array) {
+//   array[index] = element.charAt(0).toUpperCase() + element.slice(1);
+// }
