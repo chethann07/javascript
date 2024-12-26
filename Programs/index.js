@@ -534,3 +534,15 @@
 // function capitalize(element, index, array) {
 //   array[index] = element.charAt(0).toUpperCase() + element.slice(1);
 // }
+
+// .map() -> accepts callback and applies that function to each element of an array and returns a new array
+
+const numbers = [1, 2, 3, 4, 5];
+const dates = ["2024-12-03", "2024-12-10", "2024-12-15"];
+const squares = numbers.map(square);
+
+function square(element) {
+  return Math.pow(element, 2);
+}
+
+console.log(squares);
